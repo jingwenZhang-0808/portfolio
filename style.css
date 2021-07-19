@@ -1,0 +1,97 @@
+body {
+	font-family: montserrat;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+p {
+	font-size: 12px;
+	opacity: 0.6;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: left
+}
+
+.content {
+    margin: 40px 80px 0px 40px;
+    grid-area: content;
+    display: inline-block;
+    float: left;
+    max-width: 600px;
+}
+
+.nav {
+	margin: 20px 10px 0px 80px;
+	line-height: 40px;
+	font-size: 14px;
+	
+	display: inline-block;
+	float:left;
+}
+
+.page1 {
+	display: grid;
+	grid-template-areas: "advert content"
+}
+
+#portfolio {
+	margin: 10px;
+	margin-top: 40px;
+
+}
+
+#about {
+    margin: 10px;
+    margin-top: 40px;
+}
+
+#about a:link {
+	color: #525252 !important;
+	opacity: 0.4;
+	text-decoration: none;
+
+}
+
+#contact {
+	margin: 10px;
+	margin-top: 40px;
+    margin-right: 80px;
+}
+
+#catalogue {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.d1{background: LightSkyBlue;}
+.d2{background: LightSalmon;}
+.d3{background: PaleTurquoise;}
+.d4{background: LightPink;}
+.d5{background: PaleGreen;}
+.d6{background: white;}
+
+.container {
+	margin: 80px;
+	font-size: 40px;
+    min-height: 1000px;
+    
+    background: #F2F2F2;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-gap: 30px;
+
+    grid-template-areas: 
+        "header header header"
+        "advert content content"
+        "footer footer footer"
+}
+
+
+
+
+
