@@ -6,11 +6,22 @@ body {
 
 p {
 	font-size: 12px;
-	opacity: 0.6;
+	opacity: 0.8;
 	line-height: 20px;
 	margin-top: 10px;
 	margin-bottom: 0px;
 	text-align: left
+}
+
+span {
+	font-size: 12px;
+	opacity: 0.8;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: left；
+	vertical-align: middle; 
+	display: inline-block;
 }
 
 .content {
@@ -33,44 +44,55 @@ p {
 .page1 {
 	display: grid;
 	grid-template-areas: "advert content"
+	margin-top:60px;
 }
 
 #portfolio {
-	margin: 10px;
 	margin-top: 40px;
 
+}
+
+a:link {
+       text-decoration: none;
+       color: #000000; 
+       opacity: 0.8;
+
+
+}
+
+a:hover {
+       color: #993300;
+       text-decoration: underline;
+     
+}
+
+a:active {
+       color: #ff0033;
+       text-decoration: none;
 }
 
 #about {
     margin: 10px;
     margin-top: 40px;
-}
-
-#about a:link {
-	color: #525252 !important;
-	opacity: 0.4;
-	text-decoration: none;
 
 }
+
 
 #contact {
-	margin: 10px;
+	
 	margin-top: 40px;
-    margin-right: 80px;
+    
 }
 
 #catalogue {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	width: 800px;
+	margin: 0px auto;
 }
 
-.d1{background: LightSkyBlue;}
-.d2{background: LightSalmon;}
-.d3{background: PaleTurquoise;}
-.d4{background: LightPink;}
-.d5{background: PaleGreen;}
-.d6{background: white;}
+
 
 .container {
 	margin: 80px;
@@ -90,6 +112,12 @@ p {
         "advert content content"
         "footer footer footer"
 }
+
+
+
+
+
+
 
 
 
